@@ -1,0 +1,7 @@
+[
+  { "product_id": 1, "category": "All Product" },
+  { "product_id": 2, "category": "Phone" },
+  { "product_id": 3, "category": "Laptop" },
+  { "product_id": 4, "category": "Smart watch" },
+  { "product_id": 5, "category": "Accessories" }
+]

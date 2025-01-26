@@ -1,8 +1,8 @@
 
 const Banner = () => {
     return (
-        <div className="flex justify-center border-2">
-            <img className=" w-5xl" src="https://joynul2024.sirv.com/banner.jpg" alt="" />
+        <div className="flex justify-center">
+            <img className="h-[560px] rounded-3xl w-5xl" src="https://joynul2024.sirv.com/banner.jpg" alt="" />
         </div>
     );
 };

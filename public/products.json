@@ -3,7 +3,7 @@
     "product_id": 1,
     "product_title": "Galaxy S23 Ultra",
     "product_image": "https://joynul2024.sirv.com/phones/phone-1.avif",
-    "category": "phone",
+    "category": "Phone",
     "price": 1199.99,
     "description": "A flagship smartphone with excellent performance and camera capabilities.",
     "specification": [
@@ -15,11 +15,12 @@
     "available": true,
     "rating": 4.7
   },
+
   {
     "product_id": 2,
     "product_title": "iPhone 15 Pro Max",
     "product_image": "https://joynul2024.sirv.com/phones/phone-2.png",
-    "category": "phone",
+    "category": "Phone",
     "price": 1299.99,
     "description": "Apple's latest and most powerful smartphone with cutting-edge features.",
     "specification": [
@@ -35,7 +36,7 @@
     "product_id": 3,
     "product_title": "Pixel 8 Pro",
     "product_image": "https://joynul2024.sirv.com/phones/phone-3.jpg",
-    "category": "phone",
+    "category": "Phone",
     "price": 999.99,
     "description": "Google's premium phone with advanced AI features and excellent camera.",
     "specification": [
@@ -51,7 +52,7 @@
     "product_id": 4,
     "product_title": "OnePlus 12",
     "product_image": "https://joynul2024.sirv.com/phones/phone-4.png",
-    "category": "phone",
+    "category": "Phone",
     "price": 899.99,
     "description": "A high-performance smartphone with fast charging and sleek design.",
     "specification": [
@@ -67,7 +68,7 @@
     "product_id": 5,
     "product_title": "Xiaomi 14 Pro",
     "product_image": "https://joynul2024.sirv.com/phones/phone-5.webp",
-    "category": "phone",
+    "category": "Phone",
     "price": 749.99,
     "description": "A feature-packed smartphone with excellent value for money.",
     "specification": [
@@ -83,7 +84,7 @@
     "product_id": 6,
     "product_title": "MacBook Pro 16-inch",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-1.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 2499.99,
     "description": "A powerful laptop for professionals with the M2 Max chip.",
     "specification": [
@@ -99,7 +100,7 @@
     "product_id": 7,
     "product_title": "Dell XPS 15",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-2.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1999.99,
     "description": "A sleek and powerful laptop with an impressive display.",
     "specification": [
@@ -115,7 +116,7 @@
     "product_id": 8,
     "product_title": "HP Spectre x360",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-3.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1599.99,
     "description": "A convertible laptop with a premium design and solid performance.",
     "specification": [
@@ -131,7 +132,7 @@
     "product_id": 9,
     "product_title": "Lenovo ThinkPad X1 Carbon",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-4.avif",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1899.99,
     "description": "A business-class laptop with durability and top-tier performance.",
     "specification": [
@@ -147,7 +148,7 @@
     "product_id": 10,
     "product_title": "Asus ROG Zephyrus G14",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-5.png",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1699.99,
     "description": "A gaming laptop with powerful hardware and a compact design.",
     "specification": [
@@ -164,7 +165,7 @@
     "product_id": 11,
     "product_title": "Apple Watch Series 9",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-1.jpg",
-    "category": "smart watch",
+    "category": "Smart watch",
     "price": 399.99,
     "description": "A smartwatch with advanced health and fitness tracking features.",
     "specification": [
@@ -180,7 +181,7 @@
     "product_id": 12,
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-2.webp",
-    "category": "smart watch",
+    "category": "Smart watch",
     "price": 349.99,
     "description": "A premium smartwatch with robust fitness tracking and Wear OS.",
     "specification": [
@@ -196,7 +197,7 @@
     "product_id": 13,
     "product_title": "Garmin Forerunner 965",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-3.jpg",
-    "category": "smart watch",
+    "category": "Smart watch",
     "price": 599.99,
     "description": "A smartwatch designed for serious athletes with advanced GPS features.",
     "specification": [
@@ -212,7 +213,7 @@
     "product_id": 14,
     "product_title": "Fitbit Sense 2",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-4.jpg",
-    "category": "smart watch",
+    "category": "Smart watch",
     "price": 299.99,
     "description": "A health-focused smartwatch with stress and sleep monitoring.",
     "specification": [
@@ -228,7 +229,7 @@
     "product_id": 15,
     "product_title": "Amazfit GTR 4",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-5.webp",
-    "category": "smart watch",
+    "category": "Smart watch",
     "price": 199.99,
     "description": "An affordable smartwatch with excellent battery life and features.",
     "specification": [

@@ -4,7 +4,7 @@ import Navber from "../Navber/Navber";
 
 const Root = () => {
     return (
-        <div className="container mx-auto">
+        <div>
             <Navber></Navber>
             <div className="min-h-[calc(100vh-450px)]"><Outlet></Outlet></div>
             <Footer></Footer>
