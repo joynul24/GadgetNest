@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
+import './Navber.css'
 
 const Navber = () => {
 
     const links = <>
       <li><NavLink to={'/'}>Home</NavLink></li>
-      <li><NavLink>Statistics</NavLink></li>
-      <li><NavLink>Dashboard</NavLink></li>
+      <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
+      <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
     </>
 
   return (
@@ -35,15 +36,16 @@ const Navber = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl font-bold">Gadget Heaven</a>
+        <a className="btn btn-ghost text-2xl font-bold">Gadget Heaven</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
          {links}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="flex gap-10 navbar-end">
+        <span><i className="fa-solid fa-cart-shopping text-2xl cursor-pointer hover:text-[#9538E2]"></i></span>
+        <span><i className="fa-regular fa-heart text-2xl cursor-pointer hover:text-[#9538E2]"></i></span>
       </div>
     </div>
   );

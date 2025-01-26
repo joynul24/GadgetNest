@@ -1,10 +1,12 @@
+import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navber from "../Navber/Navber";
 
 const Root = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="container mx-auto">
             <Navber></Navber>
+            <div className="min-h-[calc(100vh-450px)]"><Outlet></Outlet></div>
             <Footer></Footer>
         </div>
     );

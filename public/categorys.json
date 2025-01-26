@@ -1,0 +1,5 @@
+[
+  { "product_id": 1, "category": "phone" },
+  { "product_id": 2, "category": "laptop" },
+  { "product_id": 3, "category": "smart watch" }
+]
