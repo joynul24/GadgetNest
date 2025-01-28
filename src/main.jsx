@@ -10,12 +10,15 @@ import Home from './components/Pages/Home';
 import Statistics from './components/Pages/Statistics';
 import Dashboard from './components/Pages/Dashboard';
 import Cards from './components/Cards/Cards';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import ProductDetails from './components/ProductDetails/ProductDetails';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -23,10 +26,21 @@ const router = createBrowserRouter([
         loader: ()=> fetch('../categories.json'),
         children: [
           {
+            path: '/',
+            element: <Cards></Cards>,
+            loader: ()=> fetch('../products.json')
+          },
+          {
             path: '/category/:category',
-            element: <Cards></Cards>
-          }
-        ]
+            element: <Cards></Cards>,
+            loader: ()=> fetch('../products.json')
+          },
+        ],
+      },
+      {
+        path: '/product/:productId',
+        element: <ProductDetails></ProductDetails>,
+        loader: ()=> fetch('../products.json')
       },
       {
         path: '/statistics',

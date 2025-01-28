@@ -1,8 +1,8 @@
 [
   {
     "product_id": 1,
-    "product_title": "Galaxy S23 Ultra",
-    "product_image": "https://joynul2024.sirv.com/phones/phone-1.avif",
+    "product_title": "Galaxy Grand Prime",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-6.jpg",
     "category": "Phone",
     "price": 1199.99,
     "description": "A flagship smartphone with excellent performance and camera capabilities.",
@@ -15,137 +15,24 @@
     "available": true,
     "rating": 4.7
   },
-
   {
     "product_id": 2,
-    "product_title": "iPhone 15 Pro Max",
-    "product_image": "https://joynul2024.sirv.com/phones/phone-2.png",
-    "category": "Phone",
-    "price": 1299.99,
-    "description": "Apple's latest and most powerful smartphone with cutting-edge features.",
+    "product_title": "Garmin Forerunner 965",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-3.jpg",
+    "category": "Smart watch",
+    "price": 599.99,
+    "description": "A smartwatch designed for serious athletes with advanced GPS features.",
     "specification": [
-      "6.7-inch Super Retina XDR display",
-      "A17 Bionic chip",
-      "Titanium body",
-      "48MP main camera"
+      "1.4-inch AMOLED display",
+      "GPS tracking",
+      "VO2 Max monitoring",
+      "Recovery insights"
     ],
-    "available": true,
-    "rating": 4.8
+    "available": false,
+    "rating": 4.6
   },
   {
     "product_id": 3,
-    "product_title": "Pixel 8 Pro",
-    "product_image": "https://joynul2024.sirv.com/phones/phone-3.jpg",
-    "category": "Phone",
-    "price": 999.99,
-    "description": "Google's premium phone with advanced AI features and excellent camera.",
-    "specification": [
-      "6.7-inch OLED display",
-      "Google Tensor G3 processor",
-      "5000mAh battery",
-      "50MP main camera"
-    ],
-    "available": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": 4,
-    "product_title": "OnePlus 12",
-    "product_image": "https://joynul2024.sirv.com/phones/phone-4.png",
-    "category": "Phone",
-    "price": 899.99,
-    "description": "A high-performance smartphone with fast charging and sleek design.",
-    "specification": [
-      "6.7-inch AMOLED display",
-      "Snapdragon 8 Gen 2 processor",
-      "4800mAh battery",
-      "50MP main camera"
-    ],
-    "available": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": 5,
-    "product_title": "Xiaomi 14 Pro",
-    "product_image": "https://joynul2024.sirv.com/phones/phone-5.webp",
-    "category": "Phone",
-    "price": 749.99,
-    "description": "A feature-packed smartphone with excellent value for money.",
-    "specification": [
-      "6.73-inch AMOLED display",
-      "Snapdragon 8 Gen 2 processor",
-      "4600mAh battery",
-      "50MP main camera"
-    ],
-    "available": false,
-    "rating": 4.4
-  },
-  {
-    "product_id": 6,
-    "product_title": "MacBook Pro 16-inch",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-1.jpg",
-    "category": "Laptop",
-    "price": 2499.99,
-    "description": "A powerful laptop for professionals with the M2 Max chip.",
-    "specification": [
-      "16-inch Retina display",
-      "M2 Max chip",
-      "32GB RAM",
-      "1TB SSD"
-    ],
-    "available": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": 7,
-    "product_title": "Dell XPS 15",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-2.jpg",
-    "category": "Laptop",
-    "price": 1999.99,
-    "description": "A sleek and powerful laptop with an impressive display.",
-    "specification": [
-      "15.6-inch 4K OLED display",
-      "Intel Core i9 13th Gen",
-      "32GB RAM",
-      "1TB SSD"
-    ],
-    "available": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": 8,
-    "product_title": "HP Spectre x360",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-3.jpg",
-    "category": "Laptop",
-    "price": 1599.99,
-    "description": "A convertible laptop with a premium design and solid performance.",
-    "specification": [
-      "13.5-inch OLED touchscreen",
-      "Intel Core i7 13th Gen",
-      "16GB RAM",
-      "1TB SSD"
-    ],
-    "available": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": 9,
-    "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-4.avif",
-    "category": "Laptop",
-    "price": 1899.99,
-    "description": "A business-class laptop with durability and top-tier performance.",
-    "specification": [
-      "14-inch 2.8K display",
-      "Intel Core i7 13th Gen",
-      "16GB RAM",
-      "1TB SSD"
-    ],
-    "available": false,
-    "rating": 4.5
-  },
-  {
-    "product_id": 10,
     "product_title": "Asus ROG Zephyrus G14",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-5.png",
     "category": "Laptop",
@@ -162,7 +49,171 @@
     "rating": 4.7
   },
   {
+    "product_id": 4,
+    "product_title": "Galaxy S23 Ultra",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-1.avif",
+    "category": "Phone",
+    "price": 1199.99,
+    "description": "A flagship smartphone with excellent performance and camera capabilities.",
+    "specification": [
+      "6.8-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "5000mAh battery",
+      "108MP main camera"
+    ],
+    "available": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": 5,
+    "product_title": "Pixel 8 Pro",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-3.jpg",
+    "category": "Phone",
+    "price": 999.99,
+    "description": "Google's premium phone with advanced AI features and excellent camera.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G3 processor",
+      "5000mAh battery",
+      "50MP main camera"
+    ],
+    "available": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 6,
+    "product_title": "OnePlus 12",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-4.png",
+    "category": "Phone",
+    "price": 899.99,
+    "description": "A high-performance smartphone with fast charging and sleek design.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "4800mAh battery",
+      "50MP main camera"
+    ],
+    "available": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 7,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-4.avif",
+    "category": "Laptop",
+    "price": 1899.99,
+    "description": "A business-class laptop with durability and top-tier performance.",
+    "specification": [
+      "14-inch 2.8K display",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "available": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 8,
+    "product_title": "Xiaomi 14 Pro",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-5.webp",
+    "category": "Phone",
+    "price": 749.99,
+    "description": "A feature-packed smartphone with excellent value for money.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "4600mAh battery",
+      "50MP main camera"
+    ],
+    "available": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 9,
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-1.jpg",
+    "category": "Laptop",
+    "price": 2499.99,
+    "description": "A powerful laptop for professionals with the M2 Max chip.",
+    "specification": [
+      "16-inch Retina display",
+      "M2 Max chip",
+      "32GB RAM",
+      "1TB SSD"
+    ],
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 10,
+    "product_title": "Dell XPS 15",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-2.jpg",
+    "category": "Laptop",
+    "price": 1999.99,
+    "description": "A sleek and powerful laptop with an impressive display.",
+    "specification": [
+      "15.6-inch 4K OLED display",
+      "Intel Core i9 13th Gen",
+      "32GB RAM",
+      "1TB SSD"
+    ],
+    "available": true,
+    "rating": 4.7
+  },
+  {
     "product_id": 11,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/laptop-3.jpg",
+    "category": "Laptop",
+    "price": 1599.99,
+    "description": "A convertible laptop with a premium design and solid performance.",
+    "specification": [
+      "13.5-inch OLED touchscreen",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "available": true,
+    "rating": 4.6
+  },
+
+  {
+    "product_id": 12,
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://joynul2024.sirv.com/phones/phone-2.png",
+    "category": "Phone",
+    "price": 1299.99,
+    "description": "Apple's latest and most powerful smartphone with cutting-edge features.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Titanium body",
+      "48MP main camera"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+
+  {
+    "product_id": 13,
+    "product_title": "Fitbit Sense 2",
+    "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-4.jpg",
+    "category": "Smart watch",
+    "price": 299.99,
+    "description": "A health-focused smartwatch with stress and sleep monitoring.",
+    "specification": [
+      "1.6-inch AMOLED display",
+      "ECG app",
+      "Stress management tools",
+      "SpO2 sensor"
+    ],
+    "available": true,
+    "rating": 4.5
+  },
+
+  {
+    "product_id": 14,
     "product_title": "Apple Watch Series 9",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-1.jpg",
     "category": "Smart watch",
@@ -178,7 +229,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 12,
+    "product_id": 15,
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-2.webp",
     "category": "Smart watch",
@@ -193,40 +244,9 @@
     "available": true,
     "rating": 4.7
   },
+
   {
-    "product_id": 13,
-    "product_title": "Garmin Forerunner 965",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-3.jpg",
-    "category": "Smart watch",
-    "price": 599.99,
-    "description": "A smartwatch designed for serious athletes with advanced GPS features.",
-    "specification": [
-      "1.4-inch AMOLED display",
-      "GPS tracking",
-      "VO2 Max monitoring",
-      "Recovery insights"
-    ],
-    "available": false,
-    "rating": 4.6
-  },
-  {
-    "product_id": 14,
-    "product_title": "Fitbit Sense 2",
-    "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-4.jpg",
-    "category": "Smart watch",
-    "price": 299.99,
-    "description": "A health-focused smartwatch with stress and sleep monitoring.",
-    "specification": [
-      "1.6-inch AMOLED display",
-      "ECG app",
-      "Stress management tools",
-      "SpO2 sensor"
-    ],
-    "available": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": 15,
+    "product_id": 16,
     "product_title": "Amazfit GTR 4",
     "product_image": "https://joynul2024.sirv.com/phones/laptops/watchs/watch-5.webp",
     "category": "Smart watch",
