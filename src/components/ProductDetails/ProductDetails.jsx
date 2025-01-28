@@ -6,7 +6,7 @@ const ProductDetails = () => {
   const data = useLoaderData();
 
   const products = data.find((product) => product.product_id === id);
-  console.log(products);
+  // console.log(products);
   const {
     product_image,
     product_title,
@@ -17,7 +17,7 @@ const ProductDetails = () => {
   } = products;
 
   return (
-    <div className=" container mx-auto bg-[#9538E2] pt-10 h-[350px] rounded-xl">
+    <div className="container mx-auto bg-[#9538E2] pt-10 h-[350px] rounded-xl">
       <div className="text-white">
         <h1 className="text-3xl font-bold text-center mb-3">Product Details</h1>
         <p className="opacity-70 w-3xl mx-auto text-center">

@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData,useParams } from "react-router-dom";
 import Card from "../Card/Card";
 import { useEffect, useState } from "react";
 
@@ -6,16 +6,27 @@ import { useEffect, useState } from "react";
 const Cards = () => {
   const products = useLoaderData();
   const params = useParams();
+  // console.log(params.category);
   const [allProduct, setAllProduct] = useState([])
   useEffect(()=> {
-     if(params.category){
-      const filterByCategory = [...products].filter(product => product.category === params.category)
-      
-      setAllProduct(filterByCategory)
-     }
-     else{
-       setAllProduct(products.slice(0,8))
-     }
+    if(params.category === 'Accessories') {
+      document.getElementById('error').classList.remove('hidden')
+      setAllProduct([])
+    }
+    else{
+      if(params.category === 'All Product'){
+        setAllProduct(products)
+      }
+       else if(params.category){
+        const filterByCategory = [...products].filter(product => product.category === params.category)
+        
+        setAllProduct(filterByCategory)
+       }
+       else{
+         setAllProduct(products.slice(0,8))
+       }
+       document.getElementById('error').classList.add('hidden')
+    }
   }, [products, params.category])
   return (
     <div className="">

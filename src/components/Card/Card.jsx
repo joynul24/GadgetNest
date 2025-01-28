@@ -6,7 +6,7 @@ const Card = ({ product }) => {
     // console.log(product);
   const {product_id, product_image, product_title, price } = product || {};
   return (
-    <div className="card rounded-2xl p-6 shadow-lg border-2">
+    <div className="card rounded-2xl p-7 shadow-lg bg-white mb-5">
         <figure className="bg-gray-300 flex justify-center w-[280] h-[200px]">
             <img
             className="w-full h-full "
