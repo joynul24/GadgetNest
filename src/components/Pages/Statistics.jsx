@@ -4,8 +4,7 @@ import Heading from "../Heading/Heading";
 // eslint-disable-next-line no-unused-vars
 const Statistics = ({title}) => {
     return (
-        <div>
-            <h1>Statistics</h1>
+        <div className="container mx-auto">
             <Heading
              title={'No Data to Show Statistics'}
             ></Heading>
