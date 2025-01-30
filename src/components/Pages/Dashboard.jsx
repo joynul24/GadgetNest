@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // import { useState } from "react";
 // import Heading from "../Heading/Heading";
 // import Cart from "../Cart/Cart";
@@ -72,6 +73,7 @@ const Dashboard = () => {
   const [cartItems, setCartItems] = useState([]);
   const [wishlistItems, setWishlistItems] = useState([]);
 
+
   const handleIsActiveStatus = (status) => {
     setIsActive({ cart: status === "cart", status });
   };
@@ -97,7 +99,7 @@ const Dashboard = () => {
       </div>
 
       <div>
-        {isActive.cart ? <Cart items={cartItems} /> : <Wishlist items={wishlistItems} />}
+        {isActive.cart ? <Cart items={cartItems}/> : <Wishlist items={wishlistItems} />}
       </div>
     </div>
   );

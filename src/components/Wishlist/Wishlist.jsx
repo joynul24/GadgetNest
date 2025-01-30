@@ -1,24 +1,22 @@
-/* eslint-disable react/prop-types */
 
-// const Wishlist = () => {
-//     return (
-//         <div>
-//             <h1 className="text-2xl font-bold">Wishlist</h1>
-//         </div>
-//     );
-// };
-
-// export default Wishlist;
 
 import { useState, useEffect } from "react";
 
 const Wishlist = () => {
   const [wishlistItems, setWishlistItems] = useState([]);
 
+  const handleRemoveWishlist = (id) => {
+    const remainingWishlist = wishlistItems.filter(cart => cart.product_id !== id)
+    localStorage.removeItem('wishlist', JSON.stringify(remainingWishlist))
+    setWishlistItems(remainingWishlist)
+  }
+
   useEffect(() => {
     const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
     setWishlistItems(wishlist);
   }, []);
+
+  
 
   return (
     <div className="pt-12 pb-8 bg-[#ECECEC]">
@@ -45,6 +43,7 @@ const Wishlist = () => {
                </div>
                 
                 <button
+                onClick={()=> handleRemoveWishlist(item.product_id)}
                 className="cursor-pointer"
                 ><i className="text-4xl text-red-400 fa-regular fa-circle-xmark"></i></button>
                 </div>
