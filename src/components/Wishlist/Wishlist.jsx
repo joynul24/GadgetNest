@@ -1,6 +1,7 @@
 
 
 import { useState, useEffect } from "react";
+import toast from "react-hot-toast";
 
 const Wishlist = () => {
   const [wishlistItems, setWishlistItems] = useState([]);
@@ -9,6 +10,7 @@ const Wishlist = () => {
     const remainingWishlist = wishlistItems.filter(cart => cart.product_id !== id)
     localStorage.removeItem('wishlist', JSON.stringify(remainingWishlist))
     setWishlistItems(remainingWishlist)
+    toast.success('Wishlist item delete done')
   }
 
   useEffect(() => {

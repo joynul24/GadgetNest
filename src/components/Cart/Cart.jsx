@@ -1,39 +1,52 @@
-
 import { useState, useEffect } from "react";
+import toast from "react-hot-toast";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
 
+
   const handleRemoveCart = (id) => {
-    const remainingCart = cartItems.filter(cart => cart.product_id !== id)
-    localStorage.removeItem('cart', JSON.stringify(remainingCart))
-    setCartItems(remainingCart)
-  }
+    const remainingCart = cartItems.filter((cart) => cart.product_id !== id);
+    localStorage.removeItem("cart", JSON.stringify(remainingCart));
+    setCartItems(remainingCart);
+    toast.success("Cart item delete done");
+  };
 
   useEffect(() => {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     setCartItems(cart);
   }, []);
+  // console.log(sortPrice);
 
-
+  const handleSortByPrice = (sortBy) => {
+    if (sortBy === "sortPrice") {
+      const sorted = [...cartItems].sort((a, b) => b.price - a.price);
+      localStorage.setItem("cart", JSON.stringify(sorted));
+      setCartItems(sorted);
+      toast.success('Sorted in descending order.')
+    }
+  };
 
   return (
     <div className="pt-12 pb-8 bg-[#ECECEC]">
       <div className="container mx-auto ">
-        
-      <div className="flex justify-between">
-        <h1 className="text-3xl font-bold mb-8">Cart Items</h1>
-        <div className="flex items-center gap-6">
-          <h3 className="text-2xl font-bold">Total Cost:</h3>
-          <button className="btn btn-outline text-[#9538E2] rounded-4xl hover:bg-[#9538E2] hover:text-white ">
-            Sort by Price<i className="fa-solid fa-sliders fa-beat"></i>
-          </button>
-          <button className="btn rounded-4xl bg-[#9538E2] hover:bg-[#9b5dce] text-white border-0 ">
-            Purchase
-          </button>
+        <div className="flex justify-between">
+          <h1 className="text-3xl font-bold mb-8">Cart Items</h1>
+          <div className="flex items-center gap-6">
+            <h3 className="text-2xl font-bold">Total Cost:</h3>
+
+            <button
+              onClick={() => handleSortByPrice("sortPrice")}
+              className="btn btn-outline text-[#9538E2] rounded-4xl hover:bg-[#9538E2] hover:text-white "
+            >
+              Sort by Price<i className="fa-solid fa-sliders fa-beat"></i>
+            </button>
+            <button className="btn rounded-4xl bg-[#9538E2] hover:bg-[#9b5dce] text-white border-0 ">
+              Purchase
+            </button>
+          </div>
         </div>
-      </div>
-        
+
         {cartItems.length > 0 ? (
           <ul>
             {cartItems.map((item) => (
@@ -57,8 +70,9 @@ const Cart = () => {
                     <p className="font-semibold">Price: $ {item.price}</p>
                   </div>
                   <button
-                  onClick={()=> handleRemoveCart(item.product_id)}
-                   className="cursor-pointer">
+                    onClick={() => handleRemoveCart(item.product_id)}
+                    className="cursor-pointer"
+                  >
                     <i className="text-4xl text-red-400 fa-regular fa-circle-xmark"></i>
                   </button>
                 </div>
