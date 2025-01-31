@@ -17,6 +17,11 @@ const ProductDetails = () => {
     if (!isExist) {
       cart.push(product);
       localStorage.setItem("cart", JSON.stringify(cart));
+      document.getElementById('cart-count').classList.remove('hidden');
+      const cartCount = document.getElementById('cart-count').innerText;
+      const count = parseInt(cartCount);
+      const addCount = count + 1;
+      document.getElementById('cart-count').innerText = addCount;
       toast.success('Successfully add to cart!');
     } else {
       toast.error('Already in Cart!');
@@ -30,6 +35,11 @@ const ProductDetails = () => {
     if (!isExist) {
       wishlist.push(product);
       localStorage.setItem("wishlist", JSON.stringify(wishlist));
+      document.getElementById('wishlist-count').classList.remove('hidden');
+      const wishlistCount = document.getElementById('wishlist-count').innerText;
+      const count = parseInt(wishlistCount);
+      const addCount = count + 1;
+      document.getElementById('wishlist-count').innerText = addCount;
       toast.success('Added to Wishlist!');
     } else {
       toast.error("Already in Wishlist!")

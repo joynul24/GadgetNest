@@ -10,7 +10,7 @@ const Navber = () => {
     </>
 
   return (
-    <div className="navbar container mx-auto">
+    <div className="navbar container mx-auto pt-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,8 +44,8 @@ const Navber = () => {
         </ul>
       </div>
       <div className="flex gap-10 navbar-end">
-        <span><i className="fa-solid fa-cart-shopping text-2xl cursor-pointer hover:text-[#9538E2]"></i></span>
-        <span><i className="fa-regular fa-heart text-2xl cursor-pointer hover:text-[#9538E2]"></i></span>
+        <div className="bg-gray-300 p-3 rounded-full"><i className="fa-solid fa-cart-shopping text-2xl cursor-pointer hover:text-[#9538E2]"></i> <span id="cart-count" className="hidden bg-[#9538E2] text-white p-1 absolute top-4 font-semibold rounded-full">0</span></div>
+        <div className="bg-gray-300 p-3 rounded-full"><i className="fa-regular fa-heart text-2xl cursor-pointer hover:text-[#9538E2]"></i><span id="wishlist-count" className="hidden bg-[#9538E2] text-white p-1 absolute top-4 font-semibold rounded-full">0</span></div>
       </div>
     </div>
   );
