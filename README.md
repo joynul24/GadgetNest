@@ -5,7 +5,7 @@ This is a fully functional gadget e-commerce website where users can browse, sea
 
 Github link : https://github.com/joynul24/assignment-08 
 
-Live link : 
+Live link : https://gadget-heaven-989c37.netlify.app/
 
 👉Features
 Browse and Search Gadgets

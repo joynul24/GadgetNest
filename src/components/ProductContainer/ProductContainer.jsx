@@ -3,8 +3,8 @@ import CategoriesBtn from "../CategoriesBtn/CategoriesBtn";
 
 const ProductContainer = () => {
     return (
-        <div className="bg-[#09080F0D] container mx-auto mt-24">
-              <h1 className="text-center text-4xl font-bold mt-24 mb-12 pt-5">Explore Cutting-Edge Gadgets</h1>
+        <div className="bg-[#09080F0D] container mx-auto">
+              <h1 className="text-center text-4xl font-bold mb-12 pt-5">Explore Cutting-Edge Gadgets</h1>
             <div className="grid md:grid-cols-4 gap-6">
             <div className="col-span-1">
             <div className="rounded-2xl p-5 bg-gray-200"><CategoriesBtn></CategoriesBtn></div>
