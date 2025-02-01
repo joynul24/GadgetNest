@@ -4,7 +4,6 @@ import toast from "react-hot-toast";
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
 
-
   const handleRemoveCart = (id) => {
     const remainingCart = cartItems.filter((cart) => cart.product_id !== id);
     localStorage.removeItem("cart", JSON.stringify(remainingCart));
@@ -23,7 +22,7 @@ const Cart = () => {
       const sorted = [...cartItems].sort((a, b) => b.price - a.price);
       localStorage.setItem("cart", JSON.stringify(sorted));
       setCartItems(sorted);
-      toast.success('Sorted in descending order.')
+      toast.success("Sorted in descending order.");
     }
   };
 
