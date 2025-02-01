@@ -2,26 +2,27 @@
 Gadget Store Website
 This is a fully functional gadget e-commerce website where users can browse, search, and manage gadgets. The website provides an engaging user experience with features like adding items to the cart, wishlist management, and showing dynamic messages with toast notifications.
 
+
+Github link : https://github.com/joynul24/assignment-08 
+
 Live link : 
 
-Github link : 
-
-Features
+👉Features
 Browse and Search Gadgets
 
-Users can search for gadgets by name, category, or price.
+👉Users can search for gadgets by name, category, or price.
 Cart Management
 
-Users can add items to the cart and view the total cost dynamically.
+👉Users can add items to the cart and view the total cost dynamically.
 Wishlist Functionality
 
-Save favorite gadgets for future purchases in the wishlist.
+👉Save favorite gadgets for future purchases in the wishlist.
 Interactive Notifications (Toasts)
 
-Show success or warning messages when items are added or removed from the cart or wishlist.
+👉Show success or warning messages when items are added or removed from the cart or wishlist.
 Responsive Design
 
-Fully responsive for desktop, tablet, and mobile devices.
+👉Fully responsive for desktop, tablet, and mobile devices.
 Technology Used
 React.js: For building the user interface.
 Context API: For state management and managing global states like cart, wishlist, and user preferences.
