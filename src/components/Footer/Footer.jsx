@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="mt-9 container mx-auto">
           <div className="text-center pt-[50px]">
-            <h2 className="text-2xl font-bold mb-5">Gadget Heaven</h2>
+            <h2 className="text-2xl font-bold mb-5">GadgetNest</h2>
             <p className=" opacity-70">Leading the way in cutting-edge technology and innovation.</p>
         </div>
      <div className="footer justify-between sm:footer-horizontal p-10">

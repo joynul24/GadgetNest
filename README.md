@@ -3,9 +3,9 @@ Gadget Store Website
 This is a fully functional gadget e-commerce website where users can browse, search, and manage gadgets. The website provides an engaging user experience with features like adding items to the cart, wishlist management, and showing dynamic messages with toast notifications.
 
 
-Github link : https://github.com/joynul24/assignment-08 
+Github link : https://github.com/joynul24/GadgetNest
 
-Live link : https://gadget-heaven-989c37.netlify.app/
+Live link : https://gadgetnest.netlify.app/
 
 👉Features
 Browse and Search Gadgets

@@ -36,7 +36,7 @@ const Navber = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl font-bold">Gadget Heaven</a>
+        <a className="btn btn-ghost text-2xl font-bold">GadgetNest</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
